@@ -13,6 +13,7 @@ class Car extends Vehicle {
   weight: number;
   topSpeed: number;
   wheels: Wheel[];
+  vehicleType: string;
 
   // Constructor for the Car class
   constructor(
@@ -44,6 +45,7 @@ class Car extends Vehicle {
     } else {
       this.wheels = wheels;
     }
+    this.vehicleType = "Car";
   }
 
   // Override the printDetails method from the Vehicle class
@@ -59,7 +61,7 @@ class Car extends Vehicle {
     console.log(`Year: ${this.year}`);
     console.log(`Weight: ${this.weight} lbs`);
     console.log(`Top Speed: ${this.topSpeed} mph`);
-
+    console.log(`Vehicle Type: ${this.vehicleType}`);
     // Print details of the wheels
     console.log(
       `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
