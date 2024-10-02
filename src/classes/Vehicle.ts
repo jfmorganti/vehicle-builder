@@ -13,6 +13,7 @@ class Vehicle implements Driveable {
     this.currentSpeed = 0;
   }
 
+  // METHODS
   // Method to print vehicle details
   printDetails(): void {
     console.log(`Vehicle started: ${this.started}`);
