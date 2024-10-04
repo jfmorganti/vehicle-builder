@@ -80,6 +80,7 @@ class Truck extends Vehicle implements AbleToTow {
   // DONE: The method should log the details of the Truck
   // DONE: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels
   override printDetails(): void {
+    super.printDetails();
     console.log(`VIN: ${this.vin}`);
     console.log(`Make: ${this.make}`);
     console.log(`Model: ${this.model}`);

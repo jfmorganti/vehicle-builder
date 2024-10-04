@@ -6,7 +6,7 @@ A TypeScript command-line application that builds and uses cars, trucks and moto
 
 ## Description
 
-This project allows the user to create cars, trucks, and motorbikes and perform actions on them. Actions include: start, accelerate, decelerate, stop, turn right, turn left and many others.  Special actions are available for motorcycles and trucks.  
+This project allows the user to create cars, trucks, and motorbikes and perform actions on them. Actions include: start, accelerate, decelerate, stop, turn right, turn left and many others.  Special actions are available for motorcycles and trucks.  Video of its usage is available: https://app.screencastify.com/v3/watch/DnoZhlC7gk3hInAWI6RU
 
 # Table of Contents
 
